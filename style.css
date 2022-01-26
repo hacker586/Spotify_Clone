@@ -1,0 +1,117 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald&display=swap');
+
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Ubuntu, sans-serif;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    height: 65px;
+    color: antiquewhite;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.brand img{
+    height: 50px;
+    /* padding-top: 10px;*/
+    padding: 10px; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container img{
+    height: 200px;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url(bg2.jpg);
+}
+/* .songList{
+    padding: 10px;
+} */
+.timestrap{
+    margin-right: 10px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 100%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+}
+.songItem img{
+    height: auto;
+    width: 45px;
+    margin: 0 5px;
+    border-radius: 100px;
+}
+.songItem svg{
+    cursor: pointer;
+    height: 15px;
+    padding-right: 10px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    color: wheat;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.songInfo span{
+    font-size: x-large;
+    position: absolute;
+    left: 2vw;
+    font-family: Ubuntu, sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#myProgressBar{
+    width: 80vw;
+    height: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons i{
+    color: white;
+    padding: 20px 30px;
+    height: 30px;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
